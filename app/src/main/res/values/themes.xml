@@ -3,12 +3,24 @@
     <style name="Base.Theme.MyEventGuide" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
-        <item name="android:statusBarColor">@color/white</item>
-        <item name="android:windowLightStatusBar">true</item>
-        <item name="android:textColorSecondary">@color/black</item>
+        <item name="android:colorEdgeEffect">#0B4E2A</item>
+    </style>
+
+    <style name="Theme.MyEventGuide" parent="Base.Theme.MyEventGuide">
+        <item name="android:statusBarColor">#0B4E2A</item>
+<!--        <item name="android:windowLightStatusBar">true</item>-->
+        <item name="android:textColorSecondary">@color/white</item>
         <item name="colorAccent">#6F3A40</item>
         <item name="background">@color/white</item>
     </style>
 
-    <style name="Theme.MyEventGuide" parent="Base.Theme.MyEventGuide" />
+    <style name="TabLayoutText">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">#E5E5E5</item>
+    </style>
+
+    <style name="MyEdgeOverlayTheme">
+        <item name="android:colorEdgeEffect">#8bc34a</item>
+    </style>
 </resources>
