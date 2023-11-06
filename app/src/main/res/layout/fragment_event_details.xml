@@ -90,4 +90,32 @@
 
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/shape_border_left_event_details_item">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Organiser"
+            android:textSize="19dp"
+            android:drawableLeft="@drawable/baseline_group_24"
+            android:textColor="@color/black"
+            android:drawablePadding="5dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="20dp"/>
+
+        <TextView
+            android:layout_width="310dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text= "National Information Technology Development Agency (NITDA)"
+            android:textSize="19dp"/>
+
+    </LinearLayout>
+
 </LinearLayout>

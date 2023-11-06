@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/mainLyt"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fadingEdge="horizontal|vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        app:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/dialogueImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/shape_image_container_border"
+                android:fadingEdge="horizontal|vertical"
+                android:paddingHorizontal="5dp"
+                android:src="@drawable/image_nitda_logo_icon" />
+
+            <TextView
+                android:id="@+id/tvRegistrationTitleinDialogue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dialogueImage"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="Registration"
+                android:textColor="#0B4E2A"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvEventNameInDialogue"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvRegistrationTitleinDialogue"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="Digital Nigeria 2024 Conference"
+                android:textAlignment="center"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/buttonConfirmDialogue"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/tvEventNameInDialogue"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#0B4E2A"
+                android:paddingHorizontal="20dp"
+                android:paddingVertical="10dp"
+                android:text="CONFIRM"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                android:onClick="confirmRegistration"/>
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

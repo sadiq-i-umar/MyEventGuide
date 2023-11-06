@@ -12,6 +12,7 @@
         <item name="android:textColorSecondary">@color/white</item>
         <item name="colorAccent">#6F3A40</item>
         <item name="background">@color/white</item>
+        <item name="android:fontFamily">@font/opensans_regular</item>
     </style>
 
     <style name="TabLayoutText">
@@ -23,4 +24,5 @@
     <style name="MyEdgeOverlayTheme">
         <item name="android:colorEdgeEffect">#8bc34a</item>
     </style>
+
 </resources>

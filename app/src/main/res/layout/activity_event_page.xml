@@ -45,7 +45,7 @@
             android:textSize="20dp"
             android:textColor="@color/white"
             android:text="Digital Nigeria 2024 Conference"
-            android:textStyle="bold" />
+            android:textStyle="bold"/>
 
     </RelativeLayout>
 
@@ -74,6 +74,7 @@
             android:textStyle="bold" />
 
         <Button
+            android:id="@+id/buttonRegisterEvent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
