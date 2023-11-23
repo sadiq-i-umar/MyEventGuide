@@ -113,4 +113,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
+    <!-- This Text View is used to generate the name on the tag-->
+    <TextView
+        android:id="@+id/tvNameInQRCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sadiq Ibrahim Umar"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAllCaps="true"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:visibility="gone"/>
+
 </LinearLayout>
